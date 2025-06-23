@@ -1,0 +1,86 @@
+/* Ecommerce.css */
+
+.dashboard {
+  padding: 20px;
+  background-color: #f5f7fa;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.top-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  flex: 1;
+  min-width: 180px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card.earnings {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.card-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.card-info h2 {
+  margin: 5px 0 0;
+}
+
+.card-icon {
+  font-size: 30px;
+}
+
+.revenue-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.revenue-left {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.budget p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.percent {
+  color: green;
+  margin-left: 10px;
+}
+
+.revenue-chart {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.earnings-box {
+  flex: 1;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
