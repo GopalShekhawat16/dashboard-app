@@ -18,7 +18,7 @@ const Ecommerce = () => {
             
           </div>
         </div>
-        <div className="card">Customers<br /><b>5</b></div>
+        <div className="card">Customers<br /><b>10</b></div>
         
         <div className="card">Project Completed <br /><b>39</b></div>
         <div className="card">Members<br /><b>20</b></div>
